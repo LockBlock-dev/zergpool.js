@@ -48,7 +48,7 @@ See the [API documentation](/API.md).
 ```js
 const { Client } = require("./index.js")
 
-const client = new Client("token")
+const client = new Client()
 
 client.status().then(data => {
     console.log(data)
