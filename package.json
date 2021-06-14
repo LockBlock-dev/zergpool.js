@@ -1,6 +1,6 @@
 {
   "name": "zergpool.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A JavaScript library for interacting with the Zergpool API",
   "main": "index.js",
   "dependencies": {
