@@ -1,8 +1,8 @@
 # Zergpool.js
 
-Made with [![axios](https://img.shields.io/github/package-json/dependency-version/LockBlock-dev/zergpool.js/axios)](https://www.npmjs.com/package/axios)
+[![axios](https://img.shields.io/github/package-json/dependency-version/LockBlock-dev/zergpool.js/axios)](https://www.npmjs.com/package/axios)
 
-[![GitHub stars](https://img.shields.io/github/stars/LockBlock-dev/zergpool.js.svg)](https://github.com/LockBlock-dev/zergpool.js/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/LockBlock-dev/zergpool.js.svg)](https://github.com/LockBlock-dev/zergpool.js/stargazers) ![npm](https://img.shields.io/npm/dm/zergpool.js)
 
 zergpool.js is a Node.js module that allows you to easily interact with the Zergpool API.
 
