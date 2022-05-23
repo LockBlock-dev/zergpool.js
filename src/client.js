@@ -1,5 +1,6 @@
 const axios = require('axios').default
 const errors = require('./errors')
+const pkg = require("../package.json")
 
 exports.Client = class Client {
     constructor() {
@@ -34,7 +35,7 @@ exports.Client = class Client {
         method: "GET",
         url: this.#buildURL(path),
         headers: {
-          "User-Agent": `Zergpool.js ${require("../package.json").version} (https://github.com/LockBlock-dev/zergpool.js)`,                  
+          "User-Agent": `Zergpool.js ${pkg.version} (https://github.com/LockBlock-dev/zergpool.js)`,                  
           "Content-Type": "application/json",
           "Accept-Encoding": "UTF8",
         }
