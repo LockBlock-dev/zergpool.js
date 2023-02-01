@@ -37,7 +37,6 @@ exports.Client = class Client {
         headers: {
           "User-Agent": `Zergpool.js ${pkg.version} (https://github.com/LockBlock-dev/zergpool.js)`,                  
           "Content-Type": "application/json",
-          "Accept-Encoding": "UTF8",
         }
       }
 
